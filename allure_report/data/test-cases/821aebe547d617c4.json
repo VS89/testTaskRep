@@ -1,0 +1,65 @@
+{
+  "uid" : "821aebe547d617c4",
+  "name" : "Редактирование пользователя",
+  "fullName" : "tests.users.test_put_user.TestPutUser#test_update_user_have_id_and_correct_data",
+  "historyId" : "d1c965305da2a3830dac9df6a838b8fe",
+  "time" : {
+    "start" : 1612967184086,
+    "stop" : 1612967184288,
+    "duration" : 202
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Обновление данных пользователя"
+  }, {
+    "name" : "tag",
+    "value" : "update_user"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.users"
+  }, {
+    "name" : "suite",
+    "value" : "test_put_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPutUser"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RSL91EJ"
+  }, {
+    "name" : "thread",
+    "value" : "12972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.users.test_put_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "update_user", "regression" ]
+  },
+  "source" : "821aebe547d617c4.json",
+  "parameterValues" : [ ]
+}

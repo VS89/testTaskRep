@@ -1,0 +1,135 @@
+{
+  "uid" : "25855f5991e034d",
+  "name" : "Удаление пользователя который есть в базе данных",
+  "fullName" : "tests.users.test_delete_user.TestDeleteUser#test_delete_user_by_valid_id",
+  "historyId" : "22e780fe168f778f544859c6d2a8ad4b",
+  "time" : {
+    "start" : 1612967183429,
+    "stop" : 1612967183699,
+    "duration" : 270
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "create_user_id",
+    "time" : {
+      "start" : 1612967183177,
+      "stop" : 1612967183427,
+      "duration" : 250
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "удаляем пользователя с id: 108",
+      "time" : {
+        "start" : 1612967183429,
+        "stop" : 1612967183685,
+        "duration" : 256
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "проверим что пользователя с id: 108 действительно нет в базе",
+      "time" : {
+        "start" : 1612967183685,
+        "stop" : 1612967183699,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "create_user_id::0",
+    "time" : {
+      "start" : 1612967183699,
+      "stop" : 1612967183703,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Удаление пользователя по ID"
+  }, {
+    "name" : "tag",
+    "value" : "delete_user"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.users"
+  }, {
+    "name" : "suite",
+    "value" : "test_delete_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDeleteUser"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RSL91EJ"
+  }, {
+    "name" : "thread",
+    "value" : "12972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.users.test_delete_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regression", "delete_user" ]
+  },
+  "source" : "25855f5991e034d.json",
+  "parameterValues" : [ ]
+}

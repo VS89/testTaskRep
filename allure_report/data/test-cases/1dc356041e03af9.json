@@ -1,0 +1,68 @@
+{
+  "uid" : "1dc356041e03af9",
+  "name" : "Удаление пользователя с некорректным ID",
+  "fullName" : "tests.users.test_delete_user.TestDeleteUser#test_delete_user_by_invalid_id",
+  "historyId" : "9acaa6d62e5c40e013c47e721cd77e11",
+  "time" : {
+    "start" : 1612967183705,
+    "stop" : 1612967183708,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Удаление пользователя по ID"
+  }, {
+    "name" : "tag",
+    "value" : "delete_user"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.users"
+  }, {
+    "name" : "suite",
+    "value" : "test_delete_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDeleteUser"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RSL91EJ"
+  }, {
+    "name" : "thread",
+    "value" : "12972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.users.test_delete_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "user_id",
+    "value" : "'asdqweq'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regression", "delete_user" ]
+  },
+  "source" : "1dc356041e03af9.json",
+  "parameterValues" : [ "'asdqweq'" ]
+}

@@ -1,0 +1,9 @@
+[pytest]
+addopts = --strict-markers
+
+markers =
+    regression: mark for group test regression
+    create_user: mark for group test create user
+    update_user: mark for group test update user
+    delete_user: mark for group test delete user
+    get_user: mark for group test get user

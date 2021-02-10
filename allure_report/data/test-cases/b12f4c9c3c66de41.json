@@ -1,0 +1,68 @@
+{
+  "uid" : "b12f4c9c3c66de41",
+  "name" : "Нельзя сохранить пользователя если его имя или фамиля >255 символов",
+  "fullName" : "tests.users.test_post_user.TestPostUser#test_not_save_user_name_or_surname_which_has_more_255_char",
+  "historyId" : "ba7de2de8a324f2f70b5d37369914346",
+  "time" : {
+    "start" : 1612967183806,
+    "stop" : 1612967183810,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Добавление пользователя"
+  }, {
+    "name" : "tag",
+    "value" : "create_user"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.users"
+  }, {
+    "name" : "suite",
+    "value" : "test_post_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPostUser"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RSL91EJ"
+  }, {
+    "name" : "thread",
+    "value" : "12972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.users.test_post_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "user",
+    "value" : "{'name': 'movDrvTvpiPSeoG', 'surname': 'yocSBcIoAHrvxxFPUJsQFcQORBYekNugeMOHWbsbnpfgdgTmTGkSLRdZBpJBUbfsywSrgAKiCTxMYAZMixlJkcdxODRdvaNXYLWOOitnyDlDTnIbIgJZtmeUHIWPAkwMuCXhDqFVmnCgztpgHJKjFRVFvQpxbpBptyUrYeNznVcVGDEOiWsPiAwRoEmahNoFQcvPUcijngfAYQZGZLZRCyUgCGWuMuYlmMGcgfAHJxAWdJTBpJYEUkNsItAfSGfM'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regression", "create_user" ]
+  },
+  "source" : "b12f4c9c3c66de41.json",
+  "parameterValues" : [ "{'name': 'movDrvTvpiPSeoG', 'surname': 'yocSBcIoAHrvxxFPUJsQFcQORBYekNugeMOHWbsbnpfgdgTmTGkSLRdZBpJBUbfsywSrgAKiCTxMYAZMixlJkcdxODRdvaNXYLWOOitnyDlDTnIbIgJZtmeUHIWPAkwMuCXhDqFVmnCgztpgHJKjFRVFvQpxbpBptyUrYeNznVcVGDEOiWsPiAwRoEmahNoFQcvPUcijngfAYQZGZLZRCyUgCGWuMuYlmMGcgfAHJxAWdJTBpJYEUkNsItAfSGfM'}" ]
+}

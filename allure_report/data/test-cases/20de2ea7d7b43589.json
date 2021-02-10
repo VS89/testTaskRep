@@ -1,0 +1,65 @@
+{
+  "uid" : "20de2ea7d7b43589",
+  "name" : "Удаление уже удаленного пользователя",
+  "fullName" : "tests.users.test_delete_user.TestDeleteUser#test_delete_user_not_user_id",
+  "historyId" : "48f3d3fd6c5a1d3be488b25e1495142a",
+  "time" : {
+    "start" : 1612967183736,
+    "stop" : 1612967183740,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Удаление пользователя по ID"
+  }, {
+    "name" : "tag",
+    "value" : "delete_user"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.users"
+  }, {
+    "name" : "suite",
+    "value" : "test_delete_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDeleteUser"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RSL91EJ"
+  }, {
+    "name" : "thread",
+    "value" : "12972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.users.test_delete_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regression", "delete_user" ]
+  },
+  "source" : "20de2ea7d7b43589.json",
+  "parameterValues" : [ ]
+}

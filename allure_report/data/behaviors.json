@@ -1,0 +1,320 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Удаление пользователя по ID",
+    "children" : [ {
+      "name" : "Удаление пользователя который есть в базе данных",
+      "uid" : "25855f5991e034d",
+      "parentUid" : "000bf693bd1f2e70015e4074515af918",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612967183429,
+        "stop" : 1612967183699,
+        "duration" : 270
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Удаление пользователя с некорректным ID",
+      "uid" : "1dc356041e03af9",
+      "parentUid" : "000bf693bd1f2e70015e4074515af918",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612967183705,
+        "stop" : 1612967183708,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'asdqweq'" ]
+    }, {
+      "name" : "Удаление пользователя с некорректным ID",
+      "uid" : "39ab775b1d9ad132",
+      "parentUid" : "000bf693bd1f2e70015e4074515af918",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612967183730,
+        "stop" : 1612967183734,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "''" ]
+    }, {
+      "name" : "Удаление уже удаленного пользователя",
+      "uid" : "20de2ea7d7b43589",
+      "parentUid" : "000bf693bd1f2e70015e4074515af918",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612967183736,
+        "stop" : 1612967183740,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "000bf693bd1f2e70015e4074515af918"
+  }, {
+    "name" : "Получение пользователя по ID",
+    "children" : [ {
+      "name" : "Пользователь есть в таблице, статус код = 200",
+      "uid" : "7a7cf2f063232a0d",
+      "parentUid" : "a6489d888b10509a41e86f8cbdad3fe1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612967183743,
+        "stop" : 1612967183747,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Данные пользователя приходят в формате JSON",
+      "uid" : "7fc1236fe3b57aaf",
+      "parentUid" : "a6489d888b10509a41e86f8cbdad3fe1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612967183749,
+        "stop" : 1612967183754,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Верно передаются имя и фамилия пользователя",
+      "uid" : "17359ceefa6676c2",
+      "parentUid" : "a6489d888b10509a41e86f8cbdad3fe1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612967183756,
+        "stop" : 1612967183760,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Если пользователя с таким ID нет, то получаем пустой JSON и ошибку 404",
+      "uid" : "65c7c01526f2f223",
+      "parentUid" : "a6489d888b10509a41e86f8cbdad3fe1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612967183762,
+        "stop" : 1612967183766,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Если пользователя с таким ID нет, то получаем пустой JSON",
+      "uid" : "5414f66b05b2b3a8",
+      "parentUid" : "a6489d888b10509a41e86f8cbdad3fe1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612967183768,
+        "stop" : 1612967183772,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'asdqwe'" ]
+    }, {
+      "name" : "Если пользователя с таким ID нет, то получаем пустой JSON",
+      "uid" : "e5dcdb2708ff692a",
+      "parentUid" : "a6489d888b10509a41e86f8cbdad3fe1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612967183774,
+        "stop" : 1612967183777,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "''" ]
+    } ],
+    "uid" : "a6489d888b10509a41e86f8cbdad3fe1"
+  }, {
+    "name" : "Добавление пользователя",
+    "children" : [ {
+      "name" : "Нельзя сохранить пользователя без имени или без фамилии",
+      "uid" : "68977b26fd256fdb",
+      "parentUid" : "c665487eeb8475489947166205871686",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612967183781,
+        "stop" : 1612967183784,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': '', 'surname': 'AoxWVYNGijBqyIH'}" ]
+    }, {
+      "name" : "Нельзя сохранить пользователя без имени или без фамилии",
+      "uid" : "eca75b581e78ee77",
+      "parentUid" : "c665487eeb8475489947166205871686",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612967183787,
+        "stop" : 1612967183791,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': 'movDrvTvpiPSeoG', 'surname': ''}" ]
+    }, {
+      "name" : "Нельзя сохранить пользователя без имени или без фамилии",
+      "uid" : "ab8258f013101da5",
+      "parentUid" : "c665487eeb8475489947166205871686",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612967183794,
+        "stop" : 1612967183798,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': '', 'surname': ''}" ]
+    }, {
+      "name" : "Нельзя сохранить пользователя если его имя или фамиля >255 символов",
+      "uid" : "ffd4005d18823276",
+      "parentUid" : "c665487eeb8475489947166205871686",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612967183800,
+        "stop" : 1612967183804,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': 'ELAAPWjpenGfrxuaXZZUTlDKsLKasmqTciQteIygEIHUIQuMHxQSqyxeayiVtcNAWjEfTprYKUsSpxtMKHRimkoVPMElFOougPipZAmDuXOfSJvpSztDuOIpIJPsptMfiGAzNKZBUtNsZNcqunTmaDJExYBslCuxpnrsCTAatOAIbvRLkFJFXrUJmwfxNzcsSOJUUrXcbHJePIzFZhUCetXTXRmqAkcGSyLbDolshzWxFYhBAZzzuRErqZCNwnBo', 'surname': 'AoxWVYNGijBqyIH'}" ]
+    }, {
+      "name" : "Нельзя сохранить пользователя если его имя или фамиля >255 символов",
+      "uid" : "b12f4c9c3c66de41",
+      "parentUid" : "c665487eeb8475489947166205871686",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612967183806,
+        "stop" : 1612967183810,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': 'movDrvTvpiPSeoG', 'surname': 'yocSBcIoAHrvxxFPUJsQFcQORBYekNugeMOHWbsbnpfgdgTmTGkSLRdZBpJBUbfsywSrgAKiCTxMYAZMixlJkcdxODRdvaNXYLWOOitnyDlDTnIbIgJZtmeUHIWPAkwMuCXhDqFVmnCgztpgHJKjFRVFvQpxbpBptyUrYeNznVcVGDEOiWsPiAwRoEmahNoFQcvPUcijngfAYQZGZLZRCyUgCGWuMuYlmMGcgfAHJxAWdJTBpJYEUkNsItAfSGfM'}" ]
+    }, {
+      "name" : "Сохранение пользователя с корректными данными",
+      "uid" : "a876040287f81527",
+      "parentUid" : "c665487eeb8475489947166205871686",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612967183813,
+        "stop" : 1612967184077,
+        "duration" : 264
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c665487eeb8475489947166205871686"
+  }, {
+    "name" : "Обновление данных пользователя",
+    "children" : [ {
+      "name" : "Редактирование пользователя",
+      "uid" : "821aebe547d617c4",
+      "parentUid" : "6d3192e6c057e12508f84ea49a64f8d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612967184086,
+        "stop" : 1612967184288,
+        "duration" : 202
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Нельзя редактировать пользователя, если не передали ID",
+      "uid" : "37e845765583f444",
+      "parentUid" : "6d3192e6c057e12508f84ea49a64f8d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612967184297,
+        "stop" : 1612967184311,
+        "duration" : 14
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Нельзя отредактировать пользователя с ID которого нет",
+      "uid" : "86bad3861f5dbf6f",
+      "parentUid" : "6d3192e6c057e12508f84ea49a64f8d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612967184329,
+        "stop" : 1612967184333,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Нельзя отредактировать пользователя, если передать ему пустое имя или фамилию",
+      "uid" : "d5bf7fb1438f295",
+      "parentUid" : "6d3192e6c057e12508f84ea49a64f8d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612967184335,
+        "stop" : 1612967184339,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': '', 'surname': 'voDCKNucOjkNDfC'}" ]
+    }, {
+      "name" : "Нельзя отредактировать пользователя, если передать ему пустое имя или фамилию",
+      "uid" : "8c216a409b2d7427",
+      "parentUid" : "6d3192e6c057e12508f84ea49a64f8d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612967184341,
+        "stop" : 1612967184346,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': 'FOckRruYxvnISaf', 'surname': ''}" ]
+    }, {
+      "name" : "Нельзя отредактировать пользователя если его имя или фамилия содержит > 255 символов",
+      "uid" : "85c83c0272030009",
+      "parentUid" : "6d3192e6c057e12508f84ea49a64f8d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612967184348,
+        "stop" : 1612967184353,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': 'WbBkYWrBsPTwVDSuMeZxMQtxVISldSTnqZBXsjNelEEBwCMRehPghnlXQxkLcIpKmbhOEqYONoFKqgQTqQlmHYRNSdnjimMRFqkVxhRHKHOmDYkOXzyiVcWqkeSmXDTFQyIsXUfFUaAgRxFWKmkhkSIYPONovuvRJHikEywNDjFKddgQkNMErCGyvnJjTnHtLSEGzJSRMWohBYiKsBZcjRXLvTbqcxsSzsoSxgcjdGLyIpIJVnpflqUUBSbLWhWt', 'surname': 'voDCKNucOjkNDfC'}" ]
+    }, {
+      "name" : "Нельзя отредактировать пользователя если его имя или фамилия содержит > 255 символов",
+      "uid" : "9cdc820401cb9722",
+      "parentUid" : "6d3192e6c057e12508f84ea49a64f8d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612967184355,
+        "stop" : 1612967184360,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': 'FOckRruYxvnISaf', 'surname': 'ISGqMKemlOzmyHRfvKpeMwwFAKroqxWpMJgJPHmppSUwKxmWRUFHXzHADcCQkcscUzIEGMCvXRnTdwODBUEHvaYEJZmaazktqgKsqREWSNHUOlspghLchaDxtNsLVBkkYAQyvIjIStfichxweBwImvhNlOitoAlhAeXRDbgDKEhVvEMRspBklrDSqjIPfpyPpkkmwBeKuLjdshhClHwtBWowkBLElQAdtUygGZcJBunytUiscbbUikszVisHxeLa'}" ]
+    } ],
+    "uid" : "6d3192e6c057e12508f84ea49a64f8d0"
+  } ]
+}

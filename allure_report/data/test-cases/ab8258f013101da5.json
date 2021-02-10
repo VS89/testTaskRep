@@ -1,0 +1,68 @@
+{
+  "uid" : "ab8258f013101da5",
+  "name" : "Нельзя сохранить пользователя без имени или без фамилии",
+  "fullName" : "tests.users.test_post_user.TestPostUser#test_not_save_user_without_name_or_surname",
+  "historyId" : "5c1418476f20c165bff2dd9f4a94c238",
+  "time" : {
+    "start" : 1612967183794,
+    "stop" : 1612967183798,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Добавление пользователя"
+  }, {
+    "name" : "tag",
+    "value" : "create_user"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.users"
+  }, {
+    "name" : "suite",
+    "value" : "test_post_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPostUser"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RSL91EJ"
+  }, {
+    "name" : "thread",
+    "value" : "12972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.users.test_post_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "user",
+    "value" : "{'name': '', 'surname': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regression", "create_user" ]
+  },
+  "source" : "ab8258f013101da5.json",
+  "parameterValues" : [ "{'name': '', 'surname': ''}" ]
+}

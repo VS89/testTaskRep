@@ -1,0 +1,231 @@
+[ {
+  "uid" : "20de2ea7d7b43589",
+  "name" : "Удаление уже удаленного пользователя",
+  "time" : {
+    "start" : 1612967183736,
+    "stop" : 1612967183740,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5414f66b05b2b3a8",
+  "name" : "Если пользователя с таким ID нет, то получаем пустой JSON",
+  "time" : {
+    "start" : 1612967183768,
+    "stop" : 1612967183772,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5bf7fb1438f295",
+  "name" : "Нельзя отредактировать пользователя, если передать ему пустое имя или фамилию",
+  "time" : {
+    "start" : 1612967184335,
+    "stop" : 1612967184339,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ffd4005d18823276",
+  "name" : "Нельзя сохранить пользователя если его имя или фамиля >255 символов",
+  "time" : {
+    "start" : 1612967183800,
+    "stop" : 1612967183804,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7fc1236fe3b57aaf",
+  "name" : "Данные пользователя приходят в формате JSON",
+  "time" : {
+    "start" : 1612967183749,
+    "stop" : 1612967183754,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17359ceefa6676c2",
+  "name" : "Верно передаются имя и фамилия пользователя",
+  "time" : {
+    "start" : 1612967183756,
+    "stop" : 1612967183760,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "25855f5991e034d",
+  "name" : "Удаление пользователя который есть в базе данных",
+  "time" : {
+    "start" : 1612967183429,
+    "stop" : 1612967183699,
+    "duration" : 270
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eca75b581e78ee77",
+  "name" : "Нельзя сохранить пользователя без имени или без фамилии",
+  "time" : {
+    "start" : 1612967183787,
+    "stop" : 1612967183791,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a876040287f81527",
+  "name" : "Сохранение пользователя с корректными данными",
+  "time" : {
+    "start" : 1612967183813,
+    "stop" : 1612967184077,
+    "duration" : 264
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39ab775b1d9ad132",
+  "name" : "Удаление пользователя с некорректным ID",
+  "time" : {
+    "start" : 1612967183730,
+    "stop" : 1612967183734,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65c7c01526f2f223",
+  "name" : "Если пользователя с таким ID нет, то получаем пустой JSON и ошибку 404",
+  "time" : {
+    "start" : 1612967183762,
+    "stop" : 1612967183766,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "821aebe547d617c4",
+  "name" : "Редактирование пользователя",
+  "time" : {
+    "start" : 1612967184086,
+    "stop" : 1612967184288,
+    "duration" : 202
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a7cf2f063232a0d",
+  "name" : "Пользователь есть в таблице, статус код = 200",
+  "time" : {
+    "start" : 1612967183743,
+    "stop" : 1612967183747,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab8258f013101da5",
+  "name" : "Нельзя сохранить пользователя без имени или без фамилии",
+  "time" : {
+    "start" : 1612967183794,
+    "stop" : 1612967183798,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b12f4c9c3c66de41",
+  "name" : "Нельзя сохранить пользователя если его имя или фамиля >255 символов",
+  "time" : {
+    "start" : 1612967183806,
+    "stop" : 1612967183810,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c216a409b2d7427",
+  "name" : "Нельзя отредактировать пользователя, если передать ему пустое имя или фамилию",
+  "time" : {
+    "start" : 1612967184341,
+    "stop" : 1612967184346,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86bad3861f5dbf6f",
+  "name" : "Нельзя отредактировать пользователя с ID которого нет",
+  "time" : {
+    "start" : 1612967184329,
+    "stop" : 1612967184333,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68977b26fd256fdb",
+  "name" : "Нельзя сохранить пользователя без имени или без фамилии",
+  "time" : {
+    "start" : 1612967183781,
+    "stop" : 1612967183784,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9cdc820401cb9722",
+  "name" : "Нельзя отредактировать пользователя если его имя или фамилия содержит > 255 символов",
+  "time" : {
+    "start" : 1612967184355,
+    "stop" : 1612967184360,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "37e845765583f444",
+  "name" : "Нельзя редактировать пользователя, если не передали ID",
+  "time" : {
+    "start" : 1612967184297,
+    "stop" : 1612967184311,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1dc356041e03af9",
+  "name" : "Удаление пользователя с некорректным ID",
+  "time" : {
+    "start" : 1612967183705,
+    "stop" : 1612967183708,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "85c83c0272030009",
+  "name" : "Нельзя отредактировать пользователя если его имя или фамилия содержит > 255 символов",
+  "time" : {
+    "start" : 1612967184348,
+    "stop" : 1612967184353,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e5dcdb2708ff692a",
+  "name" : "Если пользователя с таким ID нет, то получаем пустой JSON",
+  "time" : {
+    "start" : 1612967183774,
+    "stop" : 1612967183777,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

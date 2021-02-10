@@ -1,0 +1,81 @@
+{
+  "uid" : "7fc1236fe3b57aaf",
+  "name" : "Данные пользователя приходят в формате JSON",
+  "fullName" : "tests.users.test_get_user.TestGetUser#test_get_user_by_id_content_type_equals_json",
+  "historyId" : "fdd79ee2bc945e886153e512519dad1a",
+  "time" : {
+    "start" : 1612967183749,
+    "stop" : 1612967183754,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Получение пользователя по ID"
+  }, {
+    "name" : "tag",
+    "value" : "get_user"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.users"
+  }, {
+    "name" : "suite",
+    "value" : "test_get_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGetUser"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RSL91EJ"
+  }, {
+    "name" : "thread",
+    "value" : "12972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.users.test_get_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2f9b3c90235180d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612884075899,
+        "stop" : 1612884075903,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "5fb1fd75008f7be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612883813425,
+        "stop" : 1612883813428,
+        "duration" : 3
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "get_user", "regression" ]
+  },
+  "source" : "7fc1236fe3b57aaf.json",
+  "parameterValues" : [ ]
+}

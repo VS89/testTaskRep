@@ -1,0 +1,65 @@
+{
+  "uid" : "a876040287f81527",
+  "name" : "Сохранение пользователя с корректными данными",
+  "fullName" : "tests.users.test_post_user.TestPostUser#test_save_user_with_correct_data",
+  "historyId" : "c5a1138e8bc6e99422fe603ee077ae78",
+  "time" : {
+    "start" : 1612967183813,
+    "stop" : 1612967184077,
+    "duration" : 264
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Добавление пользователя"
+  }, {
+    "name" : "tag",
+    "value" : "create_user"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.users"
+  }, {
+    "name" : "suite",
+    "value" : "test_post_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPostUser"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RSL91EJ"
+  }, {
+    "name" : "thread",
+    "value" : "12972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.users.test_post_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regression", "create_user" ]
+  },
+  "source" : "a876040287f81527.json",
+  "parameterValues" : [ ]
+}
